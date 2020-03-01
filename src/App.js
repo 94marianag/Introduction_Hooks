@@ -5,14 +5,12 @@ import './App.css';
 
 
 function App() {
-  return (
-  <>
+  return <>
     <div></div>
       <GlobalContextProvider settings={{username:"Mariana", password:"hola" }}> 
         <Login/>
       </GlobalContextProvider>   
   </>
-  )
 };
 
 export default App;

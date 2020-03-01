@@ -3,9 +3,6 @@ import {useState} from "react";
 import {GlobalContext} from "./GlobalContextProvider";
 import TextField from '@material-ui/core/TextField';
 
-
-
-
 export const Login = () => {
     const {username, password} = React.useContext(GlobalContext);
     console.log(username,password);
