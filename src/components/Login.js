@@ -13,8 +13,8 @@ export const Login = () => {
     const submit = (e) => {
         e.preventDefault();
         console.log(username === name && password === pword  ? ("Log In") : "");
-    }
-
+    };
+    
  return <>
      <form>
          
