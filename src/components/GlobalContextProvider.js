@@ -9,4 +9,4 @@ export const GlobalContextProvider = ({children, settings}) => {
     const [generalSettings, setGeneralSettings] = React.useState(settings);
     console.log(generalSettings);
     return (<GlobalContext.Provider value={generalSettings}>{children}</GlobalContext.Provider>);
-}
+};
