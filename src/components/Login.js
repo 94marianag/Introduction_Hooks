@@ -12,7 +12,7 @@ export const Login = () => {
 
     const submit = (e) => {
         e.preventDefault();
-        console.log(username === name && password === pword  ? ("Log In") : "");
+        console.log(username === name && password === pword  ? "Log In" : "");
     };
     
  return <>
@@ -20,13 +20,13 @@ export const Login = () => {
          
      <TextField 
      label="username"
-     onChange={e => setName(e.target.value)}
+     onChange={target => setName(target.target.value)}
      /> 
 
      <TextField 
      label="password" 
      type="password"
-     onChange={e => setPword(e.target.value)}
+     onChange={target => setPword(target.target.value)}
      />
     
     <button onClick={submit}>Log In</button>
